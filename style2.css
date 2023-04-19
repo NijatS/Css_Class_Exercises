@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#outer {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #ffa500;
+  border: 25px solid #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#middle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #008000;
+  border: 25px solid #ffff00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#inner {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #800080;
+  border: 25px solid #0000ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
